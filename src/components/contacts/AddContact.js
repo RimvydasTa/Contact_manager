@@ -54,7 +54,10 @@ import uuid from 'uuid';
         email: '',
         phone: '',
         error: {}
-    })
+    });
+    //Redirects to home
+    this.props.history.push('/');
+
   };
 
   render() {
